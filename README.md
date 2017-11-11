@@ -24,23 +24,23 @@ To complete this exercise, fulfill the following requirements:
 4. Create the following in your HTML. The following elements are indented showing their nesting relationships. When you have finished coding your HTML, you should have 1 container div with 1 sound-container div. The sound-container div contains 8 sound divs. Each sound div has their own audio and/or image.
 
 * ```div``` with an ```id``` of 'container'.
- * ```div``` with an ```id``` of 'sound-container'.
-  * ```div``` with an ```id``` of 'sound1' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound1' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound2' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound2' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound3' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound3' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound4' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound4' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound5' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound5' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound6' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound6' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound7' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound7' and correct ```src```.
-  * ```div``` with an ```id``` of 'sound8' and ```class``` of 'sound'.
-    * ```audio``` with an ```id``` of 'audiosound8' and correct ```src```
+  * ```div``` with an ```id``` of 'sound-container'.
+    * ```div``` with an ```id``` of 'sound1' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound1' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound2' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound2' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound3' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound3' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound4' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound4' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound5' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound5' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound6' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound6' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound7' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound7' and correct ```src```.
+    * ```div``` with an ```id``` of 'sound8' and ```class``` of 'sound'.
+      * ```audio``` with an ```id``` of 'audiosound8' and correct ```src```
 
 In one of these divs with class of sound, add the image of the disc within the div (it will be a sibling to the audio). Set the width and height of the image to be 400px by 400px.
 
