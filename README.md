@@ -92,7 +92,7 @@ Example:
 sound1.addEventListener('click', playSound1);
 ```
 
-5. For the div with the disc image, add an Event Listener to the ```window``` instead of ```sound5```. Instead of listening for a click, listen for a ```keydown``` event!
+5. For the div with the disc image, add an Event Listener to the ```window``` instead of the sound div. Instead of listening for a click, listen for a ```keydown``` event!
 
 6. Test your mixer!
 
