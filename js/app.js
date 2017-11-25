@@ -17,7 +17,7 @@ var loop8 = true;
 
 var playback21 = document.getElementById('playback21');
 var playback22 = document.getElementById('playback22');
-var playbackRate2 = 1;
+var playback = 1;
 
 function playSound1() {
 	var sound = document.getElementById('audiosound1');
@@ -109,15 +109,19 @@ sound5.addEventListener('click', playSound5);
 sound6.addEventListener('click', playSound6);
 sound7.addEventListener('click', playSound7);
 sound8.addEventListener('click', playSound8);
+
 playback21.addEventListener('click', function(){
-playbackRate2 = playbackRate2 + 0.5;
-var sound = document.getElementsByClassName('sound2');
-sound.playbackRate = playbackRate2;
-console.log(playbackRate2)
+playback = playback + 0.5;
+var sound1 = document.getElementById('audiosound2');
+sound1.playbackRate = playback;
+// console.log(playback)
+console.log(sound1.playbackRate)
 })
+
 playback22.addEventListener('click', function(){
-playbackRate2 = playbackRate2 - 0.5;
-var sound = document.getElementsByClassName('sound2');
-sound.playbackRate = playbackRate2;
-console.log(playbackRate2)
+playback = playback - 0.5;
+var sound1 = document.getElementById('audiosound2');
+sound1.playbackRate = playback;
+// console.log(playback)
+console.log(sound1.playbackRate)
 })
